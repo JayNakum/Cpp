@@ -1,0 +1,5 @@
+/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/MyLogger/build/CMakeFiles/MyLogger.dir
+/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/MyLogger/build/CMakeFiles/package.dir
+/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/MyLogger/build/CMakeFiles/package_source.dir
+/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/MyLogger/build/CMakeFiles/edit_cache.dir
+/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/MyLogger/build/CMakeFiles/rebuild_cache.dir
