@@ -1,6 +1,9 @@
 CMakeFiles/AbstractFactory.dir/src/main.cpp.o: \
  /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Design\ Patterns/AbstractFactory/src/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/11.2.0/iostream \
+ /usr/include/stdc-predef.h \
+ /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Design\ Patterns/AbstractFactory/src/Genre.h \
+ /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Design\ Patterns/AbstractFactory/src/Artist.h \
+ /usr/include/c++/11.2.0/iostream \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -125,4 +128,26 @@ CMakeFiles/AbstractFactory.dir/src/main.cpp.o: \
  /usr/include/c++/11.2.0/bits/locale_facets.tcc \
  /usr/include/c++/11.2.0/bits/basic_ios.tcc \
  /usr/include/c++/11.2.0/bits/ostream.tcc /usr/include/c++/11.2.0/istream \
- /usr/include/c++/11.2.0/bits/istream.tcc
+ /usr/include/c++/11.2.0/bits/istream.tcc /usr/include/c++/11.2.0/vector \
+ /usr/include/c++/11.2.0/bits/stl_uninitialized.h \
+ /usr/include/c++/11.2.0/bits/stl_vector.h \
+ /usr/include/c++/11.2.0/bits/stl_bvector.h \
+ /usr/include/c++/11.2.0/bits/vector.tcc /usr/include/c++/11.2.0/memory \
+ /usr/include/c++/11.2.0/bits/stl_tempbuf.h \
+ /usr/include/c++/11.2.0/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/11.2.0/bits/align.h /usr/include/c++/11.2.0/bit \
+ /usr/include/c++/11.2.0/bits/uses_allocator.h \
+ /usr/include/c++/11.2.0/bits/unique_ptr.h \
+ /usr/include/c++/11.2.0/utility \
+ /usr/include/c++/11.2.0/bits/stl_relops.h /usr/include/c++/11.2.0/tuple \
+ /usr/include/c++/11.2.0/array /usr/include/c++/11.2.0/bits/invoke.h \
+ /usr/include/c++/11.2.0/bits/shared_ptr.h \
+ /usr/include/c++/11.2.0/bits/shared_ptr_base.h \
+ /usr/include/c++/11.2.0/bits/allocated_ptr.h \
+ /usr/include/c++/11.2.0/bits/refwrap.h \
+ /usr/include/c++/11.2.0/ext/aligned_buffer.h \
+ /usr/include/c++/11.2.0/ext/concurrence.h \
+ /usr/include/c++/11.2.0/bits/shared_ptr_atomic.h \
+ /usr/include/c++/11.2.0/bits/atomic_base.h \
+ /usr/include/c++/11.2.0/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/11.2.0/backward/auto_ptr.h
