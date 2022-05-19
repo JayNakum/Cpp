@@ -1,0 +1,1 @@
+/usr/bin/g++  -Wall -Werror -std=c++14 -g CMakeFiles/OpenGL.dir/src/Main.cpp.o -o OpenGL  /usr/lib/libglfw.so.3.3 
