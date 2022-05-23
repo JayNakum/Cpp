@@ -1,6 +1,6 @@
 CMakeFiles/OpenGL.dir/src/Main.cpp.o: \
  /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/Main.cpp \
- /usr/include/stdc-predef.h /usr/include/GLFW/glfw3.h \
+ /usr/include/stdc-predef.h /usr/local/include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \

@@ -339,7 +339,16 @@ OpenGL_SOURCE_DIR:STATIC=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL
 SITE:STRING=JayNakum
 
 //The directory containing a CMake configuration file for glfw3.
-glfw3_DIR:PATH=/usr/lib64/cmake/glfw3
+glfw3_DIR:PATH=/usr/local/lib/cmake/glfw3
+
+//Value Computed by CMake
+opengl_BINARY_DIR:STATIC=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build
+
+//Value Computed by CMake
+opengl_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+opengl_SOURCE_DIR:STATIC=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL
 
 
 ########################
@@ -364,6 +373,8 @@ CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/bin/cpack
+//ADVANCED property for variable: CMAKE_CTEST_COMMAND
+CMAKE_CTEST_COMMAND-ADVANCED:INTERNAL=1
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/bin/ctest
 //ADVANCED property for variable: CMAKE_CXX_COMPILER
@@ -424,6 +435,10 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Test CMAKE_HAVE_LIBC_PTHREAD
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
+//Have include pthread.h
+CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL
@@ -533,6 +548,8 @@ CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/usr/lib/libOpenGL.so][/usr/lib/libGLX.so][/usr/include][c ][v()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: MAKECOMMAND
 MAKECOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MEMORYCHECK_COMMAND
