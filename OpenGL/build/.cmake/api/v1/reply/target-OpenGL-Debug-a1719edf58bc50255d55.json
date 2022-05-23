@@ -103,7 +103,12 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "/usr/lib/libGL.so",
+				"fragment" : "/usr/lib/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/libGLX.so",
 				"role" : "libraries"
 			},
 			{
