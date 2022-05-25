@@ -92,7 +92,9 @@ OpenGL_EXTERNAL_OBJECTS =
 
 OpenGL: CMakeFiles/OpenGL.dir/src/Main.cpp.o
 OpenGL: CMakeFiles/OpenGL.dir/build.make
+OpenGL: /usr/lib/libGLEW.so
 OpenGL: /usr/local/lib/libglfw3.a
+OpenGL: /usr/lib/libGLEW.so
 OpenGL: /usr/lib/libOpenGL.so
 OpenGL: /usr/lib/libGLX.so
 OpenGL: /usr/lib/libGLU.so

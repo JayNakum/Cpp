@@ -15,7 +15,7 @@
 ########################
 
 //Build the testing tree.
-BUILD_TESTING:BOOL=ON
+BUILD_TESTING:BOOL=TRUE
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -27,7 +27,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
-CMAKE_COLOR_MAKEFILE:BOOL=ON
+CMAKE_COLOR_MAKEFILE:BOOL=TRUE
 
 //No help, variable specified on the command line.
 CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++
@@ -192,10 +192,10 @@ CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //If set, runtime paths are not added when installing shared libraries,
 // but are added when building.
-CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
+CMAKE_SKIP_INSTALL_RPATH:BOOL=FALSE
 
 //If set, runtime paths are not added when using shared libraries.
-CMAKE_SKIP_RPATH:BOOL=NO
+CMAKE_SKIP_RPATH:BOOL=FALSE
 
 //Flags used by the linker during the creation of static libraries
 // during all build types.
@@ -234,52 +234,52 @@ COVERAGE_COMMAND:FILEPATH=/usr/bin/gcov
 COVERAGE_EXTRA_FLAGS:STRING=-l
 
 //Enable to build Debian packages
-CPACK_BINARY_DEB:BOOL=OFF
+CPACK_BINARY_DEB:BOOL=FALSE
 
 //Enable to build FreeBSD packages
-CPACK_BINARY_FREEBSD:BOOL=OFF
+CPACK_BINARY_FREEBSD:BOOL=FALSE
 
 //Enable to build IFW packages
-CPACK_BINARY_IFW:BOOL=OFF
+CPACK_BINARY_IFW:BOOL=FALSE
 
 //Enable to build NSIS packages
-CPACK_BINARY_NSIS:BOOL=OFF
+CPACK_BINARY_NSIS:BOOL=FALSE
 
 //Enable to build RPM packages
-CPACK_BINARY_RPM:BOOL=OFF
+CPACK_BINARY_RPM:BOOL=FALSE
 
 //Enable to build STGZ packages
-CPACK_BINARY_STGZ:BOOL=ON
+CPACK_BINARY_STGZ:BOOL=TRUE
 
 //Enable to build TBZ2 packages
-CPACK_BINARY_TBZ2:BOOL=OFF
+CPACK_BINARY_TBZ2:BOOL=FALSE
 
 //Enable to build TGZ packages
-CPACK_BINARY_TGZ:BOOL=ON
+CPACK_BINARY_TGZ:BOOL=TRUE
 
 //Enable to build TXZ packages
-CPACK_BINARY_TXZ:BOOL=OFF
+CPACK_BINARY_TXZ:BOOL=FALSE
 
 //Enable to build TZ packages
-CPACK_BINARY_TZ:BOOL=ON
+CPACK_BINARY_TZ:BOOL=TRUE
 
 //Enable to build RPM source packages
-CPACK_SOURCE_RPM:BOOL=OFF
+CPACK_SOURCE_RPM:BOOL=FALSE
 
 //Enable to build TBZ2 source packages
-CPACK_SOURCE_TBZ2:BOOL=ON
+CPACK_SOURCE_TBZ2:BOOL=TRUE
 
 //Enable to build TGZ source packages
-CPACK_SOURCE_TGZ:BOOL=ON
+CPACK_SOURCE_TGZ:BOOL=TRUE
 
 //Enable to build TXZ source packages
-CPACK_SOURCE_TXZ:BOOL=ON
+CPACK_SOURCE_TXZ:BOOL=TRUE
 
 //Enable to build TZ source packages
-CPACK_SOURCE_TZ:BOOL=ON
+CPACK_SOURCE_TZ:BOOL=TRUE
 
 //Enable to build ZIP source packages
-CPACK_SOURCE_ZIP:BOOL=OFF
+CPACK_SOURCE_ZIP:BOOL=FALSE
 
 //How many times to retry timed-out CTest submissions.
 CTEST_SUBMIT_RETRY_COUNT:STRING=3
@@ -289,6 +289,24 @@ CTEST_SUBMIT_RETRY_DELAY:STRING=5
 
 //Maximum time allowed before CTest will kill the test.
 DART_TESTING_TIMEOUT:STRING=1500
+
+//The directory containing a CMake configuration file for GLEW.
+GLEW_DIR:PATH=GLEW_DIR-NOTFOUND
+
+//Path to a file.
+GLEW_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+GLEW_SHARED_LIBRARY_DEBUG:FILEPATH=GLEW_SHARED_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+GLEW_SHARED_LIBRARY_RELEASE:FILEPATH=/usr/lib/libGLEW.so
+
+//Path to a library.
+GLEW_STATIC_LIBRARY_DEBUG:FILEPATH=GLEW_STATIC_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+GLEW_STATIC_LIBRARY_RELEASE:FILEPATH=/usr/lib/libGLEW.a
 
 //Command to build the project
 MAKECOMMAND:STRING=/usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
@@ -337,6 +355,9 @@ OpenGL_SOURCE_DIR:STATIC=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL
 
 //Name of the computer/site where compile is being run
 SITE:STRING=JayNakum
+
+//The directory containing a CMake configuration file for glew.
+glew_DIR:PATH=
 
 //The directory containing a CMake configuration file for glfw3.
 glfw3_DIR:PATH=/usr/local/lib/cmake/glfw3
@@ -546,10 +567,22 @@ CTEST_SUBMIT_RETRY_COUNT-ADVANCED:INTERNAL=1
 CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DART_TESTING_TIMEOUT
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
+//Details about finding GLEW
+FIND_PACKAGE_MESSAGE_DETAILS_GLEW:INTERNAL=[/usr/include][/usr/lib/libGLEW.so][v2.1.0()]
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/usr/lib/libOpenGL.so][/usr/lib/libGLX.so][/usr/include][c ][v()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//ADVANCED property for variable: GLEW_INCLUDE_DIR
+GLEW_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLEW_SHARED_LIBRARY_DEBUG
+GLEW_SHARED_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLEW_SHARED_LIBRARY_RELEASE
+GLEW_SHARED_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLEW_STATIC_LIBRARY_DEBUG
+GLEW_STATIC_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLEW_STATIC_LIBRARY_RELEASE
+GLEW_STATIC_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MAKECOMMAND
 MAKECOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MEMORYCHECK_COMMAND
