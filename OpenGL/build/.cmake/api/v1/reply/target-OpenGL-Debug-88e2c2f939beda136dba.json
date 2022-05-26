@@ -73,7 +73,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -Wall -Werror -std=c++14 -g"
+					"fragment" : " -Wall -Werror -std=c++17 -g"
 				}
 			],
 			"language" : "CXX",
@@ -89,7 +89,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-Wall -Werror -std=c++14 -g",
+				"fragment" : "-Wall -Werror -std=c++17 -g",
 				"role" : "flags"
 			},
 			{
