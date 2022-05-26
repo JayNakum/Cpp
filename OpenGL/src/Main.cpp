@@ -2,6 +2,47 @@
 #include <GLFW/glfw3.h>
 
 #include <iostream>
+#include <fstream>
+#include <string>
+#include <sstream>
+
+struct ShaderProgramSource
+{
+    std::string vertexSource;
+    std::string fragmentSource;
+};
+
+static ShaderProgramSource ParseShader(const std::string& filePath)
+{
+    std::ifstream stream(filePath);
+
+    enum class ShaderType
+    {
+        NONE = -1, VERTEX = 0, FRAGMENT = 1
+    };
+
+    std::string line;
+    std::stringstream ss[2];
+    ShaderType mode = ShaderType::NONE;
+
+    while (getline(stream, line))
+    {
+        if (line.find("#shader") != std::string::npos)
+        {
+            if(line.find("vertex") != std::string::npos)
+                mode = ShaderType::VERTEX;
+            else if(line.find("fragment") != std::string::npos)
+                mode = ShaderType::FRAGMENT;            
+        }
+        else
+        {
+            ss[(int)mode] << line << "\n";
+        }
+    }
+
+    return {ss[0].str(), ss[1].str()};
+    
+}
 
 static unsigned int compileShader(unsigned int type, const std::string &source)
 {
@@ -85,29 +126,13 @@ int main(void)
     glEnableVertexAttribArray(0);
     glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), 0); // position
 
-    std::string vertexShader =
-        "#version 330 core\n"
-        "\n"
-        "layout(location = 0) in vec4 position;"
-        "\n"
-        "void main()\n"
-        "{\n"
-        "   gl_Position = position;\n"
-        "}\n";
-    
-    std::string fragmentShader =
-        "#version 330 core\n"
-        "\n"
-        "layout(location = 0) out vec4 color;"
-        "\n"
-        "void main()\n"
-        "{\n"
-        "   color = vec4(1.0, 0.0, 0.0, 1.0);\n"
-        "}\n";
+    ShaderProgramSource source = ParseShader("../res/shaders/basic.shader");
+    std::cout << "Vertex Shader:" << std::endl;
+    std::cout << source.vertexSource << std::endl;
+    std::cout << "Fragment Shader:" << std::endl;
+    std::cout << source.fragmentSource << std::endl;
 
-// export MESA_GL_VERSION_OVERRIDE=3.3
-
-    unsigned int shader = CreateShader(vertexShader, fragmentShader);
+    unsigned int shader = CreateShader(source.vertexSource, source.fragmentSource);
     glUseProgram(shader);
 
     /* Loop until the user closes the window */
