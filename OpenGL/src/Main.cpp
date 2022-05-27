@@ -6,6 +6,20 @@
 #include <string>
 #include <sstream>
 
+
+static void GLClearErrors()
+{
+    while (glGetError() != GL_NO_ERROR);
+}
+
+static void GLCheckErrors()
+{
+    while (GLenum error = glGetError())
+    {
+        std::cout << "[OpenGL Error] (" << error << ")" << std::endl;
+    }
+}
+
 struct ShaderProgramSource
 {
     std::string vertexSource;
@@ -138,7 +152,7 @@ int main(void)
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, 6 * sizeof(unsigned int), indices, GL_STATIC_DRAW);
 
-
+    /** export MESA_GL_VERSION_OVERRIDE=3.3 **/
     ShaderProgramSource source = ParseShader("../res/shaders/basic.shader");
     // std::cout << "Vertex Shader:" << std::endl;
     // std::cout << source.vertexSource << std::endl;
@@ -153,7 +167,9 @@ int main(void)
         /* Render here */
         glClear(GL_COLOR_BUFFER_BIT);
 
+        GLClearErrors();
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
+        GLCheckErrors();
 
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
