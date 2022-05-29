@@ -6,18 +6,31 @@
 #include <string>
 #include <sstream>
 
+#include <signal.h>
+#define ASSERT(x) if (!(x)) raise(SIGTRAP);
+
+#define GLCall(x) GLClearErrors();\
+    x;\
+    ASSERT(GLLogCall(#x, __FILE__, __LINE__))
+
 
 static void GLClearErrors()
 {
     while (glGetError() != GL_NO_ERROR);
 }
 
-static void GLCheckErrors()
+static bool GLLogCall(const char* function, const char* file, int line)
 {
     while (GLenum error = glGetError())
     {
-        std::cout << "[OpenGL Error] (" << error << ")" << std::endl;
+        std::cout << "[OpenGL Error] (" << error << ")" 
+                  << function << " "
+                  << file << ":"
+                  << line
+                  << std::endl;
+        return false;
     }
+    return true;
 }
 
 struct ShaderProgramSource
@@ -167,9 +180,7 @@ int main(void)
         /* Render here */
         glClear(GL_COLOR_BUFFER_BIT);
 
-        GLClearErrors();
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
-        GLCheckErrors();
+        GLCall(glDrawElements(GL_TRIANGLES, 6, GL_INT, nullptr));
 
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
