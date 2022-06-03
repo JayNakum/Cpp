@@ -1,5 +1,5 @@
-CMakeFiles/OpenGL.dir/src/Main.cpp.o: \
- /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/Main.cpp \
+CMakeFiles/OpenGL.dir/src/Application.cpp.o: \
+ /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/Application.cpp \
  /usr/include/stdc-predef.h /usr/include/GL/glew.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdint.h \
@@ -152,15 +152,16 @@ CMakeFiles/OpenGL.dir/src/Main.cpp.o: \
  /usr/include/linux/close_range.h /usr/include/bits/ss_flags.h \
  /usr/include/bits/types/struct_sigstack.h /usr/include/bits/sigthread.h \
  /usr/include/bits/signal_ext.h \
- /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/include/VertexBuffer.h \
- /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/include/IndexBuffer.h \
+ /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/include/Renderer.h \
  /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/include/VertexArray.h \
+ /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/include/VertexBuffer.h \
  /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/include/VertexBufferLayout.h \
  /usr/include/c++/11.2.0/vector \
  /usr/include/c++/11.2.0/bits/stl_uninitialized.h \
  /usr/include/c++/11.2.0/bits/stl_vector.h \
  /usr/include/c++/11.2.0/bits/stl_bvector.h \
  /usr/include/c++/11.2.0/bits/vector.tcc \
+ /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/include/IndexBuffer.h \
  /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/include/Shader.h \
  /usr/include/c++/11.2.0/unordered_map \
  /usr/include/c++/11.2.0/ext/aligned_buffer.h \

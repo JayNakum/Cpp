@@ -2,7 +2,7 @@ CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o: \
  /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/VertexBuffer.cpp \
  /usr/include/stdc-predef.h \
  /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/include/VertexBuffer.h \
- /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/include/Renderer.h \
+ /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/include/GLErrorManager.h \
  /usr/include/GL/glew.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdint.h \

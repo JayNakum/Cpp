@@ -69,10 +69,38 @@ include CMakeFiles/OpenGL.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OpenGL.dir/flags.make
 
+CMakeFiles/OpenGL.dir/src/Application.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/src/Application.cpp.o: ../src/Application.cpp
+CMakeFiles/OpenGL.dir/src/Application.cpp.o: CMakeFiles/OpenGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGL.dir/src/Application.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGL.dir/src/Application.cpp.o -MF CMakeFiles/OpenGL.dir/src/Application.cpp.o.d -o CMakeFiles/OpenGL.dir/src/Application.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/Application.cpp
+
+CMakeFiles/OpenGL.dir/src/Application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/Application.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/Application.cpp > CMakeFiles/OpenGL.dir/src/Application.cpp.i
+
+CMakeFiles/OpenGL.dir/src/Application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/Application.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/Application.cpp -o CMakeFiles/OpenGL.dir/src/Application.cpp.s
+
+CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.o: ../src/GLErrorManager.cpp
+CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.o: CMakeFiles/OpenGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.o -MF CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.o.d -o CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/GLErrorManager.cpp
+
+CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/GLErrorManager.cpp > CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.i
+
+CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/GLErrorManager.cpp -o CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.s
+
 CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o: CMakeFiles/OpenGL.dir/flags.make
 CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o: ../src/IndexBuffer.cpp
 CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o: CMakeFiles/OpenGL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o -MF CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o.d -o CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/IndexBuffer.cpp
 
 CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.i: cmake_force
@@ -83,24 +111,10 @@ CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/IndexBuffer.cpp -o CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.s
 
-CMakeFiles/OpenGL.dir/src/Main.cpp.o: CMakeFiles/OpenGL.dir/flags.make
-CMakeFiles/OpenGL.dir/src/Main.cpp.o: ../src/Main.cpp
-CMakeFiles/OpenGL.dir/src/Main.cpp.o: CMakeFiles/OpenGL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenGL.dir/src/Main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGL.dir/src/Main.cpp.o -MF CMakeFiles/OpenGL.dir/src/Main.cpp.o.d -o CMakeFiles/OpenGL.dir/src/Main.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/Main.cpp
-
-CMakeFiles/OpenGL.dir/src/Main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/Main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/Main.cpp > CMakeFiles/OpenGL.dir/src/Main.cpp.i
-
-CMakeFiles/OpenGL.dir/src/Main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/Main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/Main.cpp -o CMakeFiles/OpenGL.dir/src/Main.cpp.s
-
 CMakeFiles/OpenGL.dir/src/Renderer.cpp.o: CMakeFiles/OpenGL.dir/flags.make
 CMakeFiles/OpenGL.dir/src/Renderer.cpp.o: ../src/Renderer.cpp
 CMakeFiles/OpenGL.dir/src/Renderer.cpp.o: CMakeFiles/OpenGL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OpenGL.dir/src/Renderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OpenGL.dir/src/Renderer.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGL.dir/src/Renderer.cpp.o -MF CMakeFiles/OpenGL.dir/src/Renderer.cpp.o.d -o CMakeFiles/OpenGL.dir/src/Renderer.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/Renderer.cpp
 
 CMakeFiles/OpenGL.dir/src/Renderer.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/OpenGL.dir/src/Renderer.cpp.s: cmake_force
 CMakeFiles/OpenGL.dir/src/Shader.cpp.o: CMakeFiles/OpenGL.dir/flags.make
 CMakeFiles/OpenGL.dir/src/Shader.cpp.o: ../src/Shader.cpp
 CMakeFiles/OpenGL.dir/src/Shader.cpp.o: CMakeFiles/OpenGL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OpenGL.dir/src/Shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OpenGL.dir/src/Shader.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGL.dir/src/Shader.cpp.o -MF CMakeFiles/OpenGL.dir/src/Shader.cpp.o.d -o CMakeFiles/OpenGL.dir/src/Shader.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/Shader.cpp
 
 CMakeFiles/OpenGL.dir/src/Shader.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/OpenGL.dir/src/Shader.cpp.s: cmake_force
 CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o: CMakeFiles/OpenGL.dir/flags.make
 CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o: ../src/VertexArray.cpp
 CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o: CMakeFiles/OpenGL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o -MF CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o.d -o CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/VertexArray.cpp
 
 CMakeFiles/OpenGL.dir/src/VertexArray.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/OpenGL.dir/src/VertexArray.cpp.s: cmake_force
 CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o: CMakeFiles/OpenGL.dir/flags.make
 CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o: CMakeFiles/OpenGL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o -MF CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o.d -o CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/VertexBuffer.cpp
 
 CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.i: cmake_force
@@ -155,8 +169,9 @@ CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.s: cmake_force
 
 # Object files for target OpenGL
 OpenGL_OBJECTS = \
+"CMakeFiles/OpenGL.dir/src/Application.cpp.o" \
+"CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.o" \
 "CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o" \
-"CMakeFiles/OpenGL.dir/src/Main.cpp.o" \
 "CMakeFiles/OpenGL.dir/src/Renderer.cpp.o" \
 "CMakeFiles/OpenGL.dir/src/Shader.cpp.o" \
 "CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o" \
@@ -165,8 +180,9 @@ OpenGL_OBJECTS = \
 # External object files for target OpenGL
 OpenGL_EXTERNAL_OBJECTS =
 
+OpenGL: CMakeFiles/OpenGL.dir/src/Application.cpp.o
+OpenGL: CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.o
 OpenGL: CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o
-OpenGL: CMakeFiles/OpenGL.dir/src/Main.cpp.o
 OpenGL: CMakeFiles/OpenGL.dir/src/Renderer.cpp.o
 OpenGL: CMakeFiles/OpenGL.dir/src/Shader.cpp.o
 OpenGL: CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o
@@ -181,7 +197,7 @@ OpenGL: /usr/lib/libGLU.so
 OpenGL: /usr/lib/librt.a
 OpenGL: /usr/lib/libm.so
 OpenGL: CMakeFiles/OpenGL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable OpenGL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable OpenGL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

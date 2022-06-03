@@ -148,7 +148,7 @@ CMakeFiles/OpenGL.dir/src/Shader.cpp.o: \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/11.2.0/bits/fstream.tcc /usr/include/c++/11.2.0/sstream \
  /usr/include/c++/11.2.0/bits/sstream.tcc \
- /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/include/Renderer.h \
+ /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/include/GLErrorManager.h \
  /usr/include/GL/glew.h /usr/include/GL/glu.h /usr/include/GL/gl.h \
  /usr/include/signal.h /usr/include/bits/signum-generic.h \
  /usr/include/bits/signum-arch.h /usr/include/bits/types/sig_atomic_t.h \

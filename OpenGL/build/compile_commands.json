@@ -1,13 +1,18 @@
 [
 {
   "directory": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build",
-  "command": "/usr/bin/g++    -Wall -Werror -std=c++17 -g -o CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/IndexBuffer.cpp",
-  "file": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/IndexBuffer.cpp"
+  "command": "/usr/bin/g++    -Wall -Werror -std=c++17 -g -o CMakeFiles/OpenGL.dir/src/Application.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/Application.cpp",
+  "file": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/Application.cpp"
 },
 {
   "directory": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build",
-  "command": "/usr/bin/g++    -Wall -Werror -std=c++17 -g -o CMakeFiles/OpenGL.dir/src/Main.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/Main.cpp",
-  "file": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/Main.cpp"
+  "command": "/usr/bin/g++    -Wall -Werror -std=c++17 -g -o CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/GLErrorManager.cpp",
+  "file": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/GLErrorManager.cpp"
+},
+{
+  "directory": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build",
+  "command": "/usr/bin/g++    -Wall -Werror -std=c++17 -g -o CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/IndexBuffer.cpp",
+  "file": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/src/IndexBuffer.cpp"
 },
 {
   "directory": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build",

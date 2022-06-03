@@ -6,8 +6,8 @@
 #include <string>
 #include <sstream>
 
+#include "include/GLErrorManager.h"
 #include "include/Renderer.h"
-
 #include "include/VertexBuffer.h"
 #include "include/IndexBuffer.h"
 #include "include/VertexArray.h"
@@ -76,6 +76,8 @@ int main(void)
         vb.unbind();
         ib.unbind();
 
+        Renderer renderer;
+
         float r = 0.0f;
         float i = 0.05f;
 
@@ -83,16 +85,12 @@ int main(void)
         while (!glfwWindowShouldClose(window))
         {
             /* Render here */
-            glClear(GL_COLOR_BUFFER_BIT);
+            renderer.clear();
 
             shader.bind();
             shader.setUniform4f("u_Color", r, 0.3f, 0.8f, 1.0f);
 
-            va.bind();
-
-            ib.bind();
-
-            GLCall(glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr));
+            renderer.draw(va, ib, shader);
 
             if (r > 1.0f)
             {

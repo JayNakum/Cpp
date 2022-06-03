@@ -523,6 +523,54 @@ OpenGL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/build
 .PHONY : OpenGL/fast
 
+src/Application.o: src/Application.cpp.o
+.PHONY : src/Application.o
+
+# target to build an object file
+src/Application.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Application.cpp.o
+.PHONY : src/Application.cpp.o
+
+src/Application.i: src/Application.cpp.i
+.PHONY : src/Application.i
+
+# target to preprocess a source file
+src/Application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Application.cpp.i
+.PHONY : src/Application.cpp.i
+
+src/Application.s: src/Application.cpp.s
+.PHONY : src/Application.s
+
+# target to generate assembly for a file
+src/Application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Application.cpp.s
+.PHONY : src/Application.cpp.s
+
+src/GLErrorManager.o: src/GLErrorManager.cpp.o
+.PHONY : src/GLErrorManager.o
+
+# target to build an object file
+src/GLErrorManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.o
+.PHONY : src/GLErrorManager.cpp.o
+
+src/GLErrorManager.i: src/GLErrorManager.cpp.i
+.PHONY : src/GLErrorManager.i
+
+# target to preprocess a source file
+src/GLErrorManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.i
+.PHONY : src/GLErrorManager.cpp.i
+
+src/GLErrorManager.s: src/GLErrorManager.cpp.s
+.PHONY : src/GLErrorManager.s
+
+# target to generate assembly for a file
+src/GLErrorManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.s
+.PHONY : src/GLErrorManager.cpp.s
+
 src/IndexBuffer.o: src/IndexBuffer.cpp.o
 .PHONY : src/IndexBuffer.o
 
@@ -546,30 +594,6 @@ src/IndexBuffer.s: src/IndexBuffer.cpp.s
 src/IndexBuffer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.s
 .PHONY : src/IndexBuffer.cpp.s
-
-src/Main.o: src/Main.cpp.o
-.PHONY : src/Main.o
-
-# target to build an object file
-src/Main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Main.cpp.o
-.PHONY : src/Main.cpp.o
-
-src/Main.i: src/Main.cpp.i
-.PHONY : src/Main.i
-
-# target to preprocess a source file
-src/Main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Main.cpp.i
-.PHONY : src/Main.cpp.i
-
-src/Main.s: src/Main.cpp.s
-.PHONY : src/Main.s
-
-# target to generate assembly for a file
-src/Main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Main.cpp.s
-.PHONY : src/Main.cpp.s
 
 src/Renderer.o: src/Renderer.cpp.o
 .PHONY : src/Renderer.o
@@ -707,12 +731,15 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... OpenGL"
+	@echo "... src/Application.o"
+	@echo "... src/Application.i"
+	@echo "... src/Application.s"
+	@echo "... src/GLErrorManager.o"
+	@echo "... src/GLErrorManager.i"
+	@echo "... src/GLErrorManager.s"
 	@echo "... src/IndexBuffer.o"
 	@echo "... src/IndexBuffer.i"
 	@echo "... src/IndexBuffer.s"
-	@echo "... src/Main.o"
-	@echo "... src/Main.i"
-	@echo "... src/Main.s"
 	@echo "... src/Renderer.o"
 	@echo "... src/Renderer.i"
 	@echo "... src/Renderer.s"
