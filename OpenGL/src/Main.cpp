@@ -6,36 +6,9 @@
 #include <string>
 #include <sstream>
 
-#include <signal.h>
-
-#define ASSERT(x) \
-    if (!(x))     \
-        raise(SIGTRAP);
-
-#define GLCall(x)    \
-    GLClearErrors(); \
-    x;               \
-    ASSERT(GLLogCall(#x, __FILE__, __LINE__))
-
-static void GLClearErrors()
-{
-    while (glGetError() != GL_NO_ERROR)
-        ;
-}
-
-static bool GLLogCall(const char *function, const char *file, int line)
-{
-    while (GLenum error = glGetError())
-    {
-        std::cout << "[OpenGL Error] (" << error << ")"
-                  << function << " "
-                  << file << ":"
-                  << line
-                  << std::endl;
-        return false;
-    }
-    return true;
-}
+#include "include/Renderer.h"
+#include "include/VertexBuffer.h"
+#include "include/IndexBuffer.h"
 
 struct ShaderProgramSource
 {
@@ -149,93 +122,85 @@ int main(void)
 
     std::cout << glGetString(GL_VERSION) << std::endl;
 
-    float positions[] = {
-        -0.5f, -0.5f, // 0
-        0.5f, -0.5f,  // 1
-        0.5f, 0.5f,   // 2
-        -0.5f, 0.5f   // 3
-    };
-
-    unsigned int indices[] = {// has to be unsigned
-                              0, 1, 2,
-                              2, 3, 0};
-
-    unsigned int vao;
-    glGenVertexArrays(1, &vao);
-    glBindVertexArray(vao);
-
-    unsigned int buffer;
-    glGenBuffers(1, &buffer);
-    glBindBuffer(GL_ARRAY_BUFFER, buffer);
-    glBufferData(GL_ARRAY_BUFFER, 4 * 2 * sizeof(float), positions, GL_STATIC_DRAW);
-
-    glEnableVertexAttribArray(0);
-    glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), 0); // position layout
-
-    unsigned int ibo;
-    glGenBuffers(1, &ibo);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, 6 * sizeof(unsigned int), indices, GL_STATIC_DRAW);
-
-    /** export MESA_GL_VERSION_OVERRIDE=4.4 **/ // Used
-    ShaderProgramSource source = ParseShader("../res/shaders/basic.shader");
-    // std::cout << "Vertex Shader:" << std::endl;
-    // std::cout << source.vertexSource << std::endl;
-    // std::cout << "Fragment Shader:" << std::endl;
-    // std::cout << source.fragmentSource << std::endl;
-    unsigned int shader = CreateShader(source.vertexSource, source.fragmentSource);
-    glUseProgram(shader);
-
-    int location = glGetUniformLocation(shader, "u_Color");
-    ASSERT(location != -1);
-    glUniform4f(location, 0.8f, 0.3f, 0.8f, 1.0f);
-
-    float r = 0.0f;
-    float i = 0.05f;
-
-    glBindVertexArray(0);
-    glUseProgram(0);
-    glBindBuffer(GL_ARRAY_BUFFER, 0);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
-
-    /* Loop until the user closes the window */
-    while (!glfwWindowShouldClose(window))
     {
-        /* Render here */
-        glClear(GL_COLOR_BUFFER_BIT);
+        float positions[] = {
+            -0.5f, -0.5f, // 0
+            0.5f, -0.5f,  // 1
+            0.5f, 0.5f,   // 2
+            -0.5f, 0.5f   // 3
+        };
 
-        glUseProgram(shader);
-        glUniform4f(location, r, 0.3f, 0.8f, 1.0f);
+        unsigned int indices[] = {// has to be unsigned
+                                  0, 1, 2,
+                                  2, 3, 0};
 
-        // glBindBuffer(GL_ARRAY_BUFFER, buffer);
-        // glEnableVertexAttribArray(0);
-        // glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), 0); // position layout
+        unsigned int vao;
+        glGenVertexArrays(1, &vao);
         glBindVertexArray(vao);
 
-        glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
+        VertexBuffer vb(positions, 4 * 2 * sizeof(float));
 
-        GLCall(glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr));
+        glEnableVertexAttribArray(0);
+        glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), 0); // position layout
 
-        if (r > 1.0f)
+        IndexBuffer ib(indices, 6);
+
+        /** export MESA_GL_VERSION_OVERRIDE=4.4 **/ // Used
+        ShaderProgramSource source = ParseShader("../res/shaders/basic.shader");
+        // std::cout << "Vertex Shader:" << std::endl;
+        // std::cout << source.vertexSource << std::endl;
+        // std::cout << "Fragment Shader:" << std::endl;
+        // std::cout << source.fragmentSource << std::endl;
+        unsigned int shader = CreateShader(source.vertexSource, source.fragmentSource);
+        glUseProgram(shader);
+
+        int location = glGetUniformLocation(shader, "u_Color");
+        ASSERT(location != -1);
+        glUniform4f(location, 0.8f, 0.3f, 0.8f, 1.0f);
+
+        float r = 0.0f;
+        float i = 0.05f;
+
+        glBindVertexArray(0);
+        glUseProgram(0);
+        glBindBuffer(GL_ARRAY_BUFFER, 0);
+        glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+
+        /* Loop until the user closes the window */
+        while (!glfwWindowShouldClose(window))
         {
-            i = -0.05f;
+            /* Render here */
+            glClear(GL_COLOR_BUFFER_BIT);
+
+            GLCall(glUseProgram(shader));
+            GLCall(glUniform4f(location, r, 0.3f, 0.8f, 1.0f));
+
+            GLCall(glBindVertexArray(vao));
+
+            ib.bind();
+
+            GLCall(glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr));
+
+            if (r > 1.0f)
+            {
+                i = -0.05f;
+            }
+            else if (r < 0.0f)
+            {
+                i = 0.05f;
+            }
+
+            r += i;
+
+            /* Swap front and back buffers */
+            glfwSwapBuffers(window);
+
+            /* Poll for and process events */
+            glfwPollEvents();
         }
-        else if (r < 0.0f)
-        {
-            i = 0.05f;
-        }
 
-        r += i;
-
-        /* Swap front and back buffers */
-        glfwSwapBuffers(window);
-
-        /* Poll for and process events */
-        glfwPollEvents();
+        GLCall(glDeleteProgram(shader));
     }
-
-    glDeleteProgram(shader);
-
     glfwTerminate();
     return 0;
 }
