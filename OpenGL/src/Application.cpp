@@ -27,7 +27,7 @@ int main(void)
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(640, 480, "Hello OpenGL", NULL, NULL);
+    window = glfwCreateWindow(640, 640, "Hello OpenGL", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
@@ -71,7 +71,7 @@ int main(void)
 
         Shader shader("../res/shaders/basic.shader");
         shader.bind();
-        shader.setUniform4f("u_Color", 0.8f, 0.3f, 0.8f, 1.0f);
+        // shader.setUniform4f("u_Color", 0.8f, 0.3f, 0.8f, 1.0f);
 
         Texture texture("../res/textures/logo.png");
         texture.bind();
@@ -93,8 +93,8 @@ int main(void)
             /* Render here */
             renderer.clear();
 
-            shader.bind();
-            shader.setUniform4f("u_Color", r, 0.3f, 0.8f, 1.0f);
+            // shader.bind();
+            // shader.setUniform4f("u_Color", r, 0.3f, 0.8f, 1.0f);
 
             renderer.draw(va, ib, shader);
 
