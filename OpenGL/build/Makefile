@@ -595,6 +595,30 @@ src/Renderer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Renderer.cpp.s
 .PHONY : src/Renderer.cpp.s
 
+src/VertexArray.o: src/VertexArray.cpp.o
+.PHONY : src/VertexArray.o
+
+# target to build an object file
+src/VertexArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o
+.PHONY : src/VertexArray.cpp.o
+
+src/VertexArray.i: src/VertexArray.cpp.i
+.PHONY : src/VertexArray.i
+
+# target to preprocess a source file
+src/VertexArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/VertexArray.cpp.i
+.PHONY : src/VertexArray.cpp.i
+
+src/VertexArray.s: src/VertexArray.cpp.s
+.PHONY : src/VertexArray.s
+
+# target to generate assembly for a file
+src/VertexArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/VertexArray.cpp.s
+.PHONY : src/VertexArray.cpp.s
+
 src/VertexBuffer.o: src/VertexBuffer.cpp.o
 .PHONY : src/VertexBuffer.o
 
@@ -668,6 +692,9 @@ help:
 	@echo "... src/Renderer.o"
 	@echo "... src/Renderer.i"
 	@echo "... src/Renderer.s"
+	@echo "... src/VertexArray.o"
+	@echo "... src/VertexArray.i"
+	@echo "... src/VertexArray.s"
 	@echo "... src/VertexBuffer.o"
 	@echo "... src/VertexBuffer.i"
 	@echo "... src/VertexBuffer.s"
