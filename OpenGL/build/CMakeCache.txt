@@ -15,7 +15,7 @@
 ########################
 
 //Build the testing tree.
-BUILD_TESTING:BOOL=TRUE
+BUILD_TESTING:BOOL=ON
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -27,7 +27,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
-CMAKE_COLOR_MAKEFILE:BOOL=TRUE
+CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //No help, variable specified on the command line.
 CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++
@@ -149,21 +149,6 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=OpenGL
 
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=0.1.0
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MAJOR:STATIC=0
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=1
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=0
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_TWEAK:STATIC=
-
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
 
@@ -192,10 +177,10 @@ CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //If set, runtime paths are not added when installing shared libraries,
 // but are added when building.
-CMAKE_SKIP_INSTALL_RPATH:BOOL=FALSE
+CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
 
 //If set, runtime paths are not added when using shared libraries.
-CMAKE_SKIP_RPATH:BOOL=FALSE
+CMAKE_SKIP_RPATH:BOOL=NO
 
 //Flags used by the linker during the creation of static libraries
 // during all build types.
@@ -234,52 +219,52 @@ COVERAGE_COMMAND:FILEPATH=/usr/bin/gcov
 COVERAGE_EXTRA_FLAGS:STRING=-l
 
 //Enable to build Debian packages
-CPACK_BINARY_DEB:BOOL=FALSE
+CPACK_BINARY_DEB:BOOL=OFF
 
 //Enable to build FreeBSD packages
-CPACK_BINARY_FREEBSD:BOOL=FALSE
+CPACK_BINARY_FREEBSD:BOOL=OFF
 
 //Enable to build IFW packages
-CPACK_BINARY_IFW:BOOL=FALSE
+CPACK_BINARY_IFW:BOOL=OFF
 
 //Enable to build NSIS packages
-CPACK_BINARY_NSIS:BOOL=FALSE
+CPACK_BINARY_NSIS:BOOL=OFF
 
 //Enable to build RPM packages
-CPACK_BINARY_RPM:BOOL=FALSE
+CPACK_BINARY_RPM:BOOL=OFF
 
 //Enable to build STGZ packages
-CPACK_BINARY_STGZ:BOOL=TRUE
+CPACK_BINARY_STGZ:BOOL=ON
 
 //Enable to build TBZ2 packages
-CPACK_BINARY_TBZ2:BOOL=FALSE
+CPACK_BINARY_TBZ2:BOOL=OFF
 
 //Enable to build TGZ packages
-CPACK_BINARY_TGZ:BOOL=TRUE
+CPACK_BINARY_TGZ:BOOL=ON
 
 //Enable to build TXZ packages
-CPACK_BINARY_TXZ:BOOL=FALSE
+CPACK_BINARY_TXZ:BOOL=OFF
 
 //Enable to build TZ packages
-CPACK_BINARY_TZ:BOOL=TRUE
+CPACK_BINARY_TZ:BOOL=ON
 
 //Enable to build RPM source packages
-CPACK_SOURCE_RPM:BOOL=FALSE
+CPACK_SOURCE_RPM:BOOL=OFF
 
 //Enable to build TBZ2 source packages
-CPACK_SOURCE_TBZ2:BOOL=TRUE
+CPACK_SOURCE_TBZ2:BOOL=ON
 
 //Enable to build TGZ source packages
-CPACK_SOURCE_TGZ:BOOL=TRUE
+CPACK_SOURCE_TGZ:BOOL=ON
 
 //Enable to build TXZ source packages
-CPACK_SOURCE_TXZ:BOOL=TRUE
+CPACK_SOURCE_TXZ:BOOL=ON
 
 //Enable to build TZ source packages
-CPACK_SOURCE_TZ:BOOL=TRUE
+CPACK_SOURCE_TZ:BOOL=ON
 
 //Enable to build ZIP source packages
-CPACK_SOURCE_ZIP:BOOL=FALSE
+CPACK_SOURCE_ZIP:BOOL=OFF
 
 //How many times to retry timed-out CTest submissions.
 CTEST_SUBMIT_RETRY_COUNT:STRING=3
@@ -309,7 +294,7 @@ GLEW_STATIC_LIBRARY_DEBUG:FILEPATH=GLEW_STATIC_LIBRARY_DEBUG-NOTFOUND
 GLEW_STATIC_LIBRARY_RELEASE:FILEPATH=/usr/lib/libGLEW.a
 
 //Command to build the project
-MAKECOMMAND:STRING=/usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+MAKECOMMAND:STRING=/usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 
 //Path to the memory checking command, used for memory error detection.
 MEMORYCHECK_COMMAND:FILEPATH=/opt/cuda/bin/cuda-memcheck
@@ -328,9 +313,6 @@ OPENGL_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
 OPENGL_egl_LIBRARY:FILEPATH=/usr/lib/libEGL.so
-
-//Path to a library.
-OPENGL_gl_LIBRARY:FILEPATH=/usr/lib/libGL.so
 
 //Path to a library.
 OPENGL_glu_LIBRARY:FILEPATH=/usr/lib/libGLU.so
@@ -356,20 +338,8 @@ OpenGL_SOURCE_DIR:STATIC=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL
 //Name of the computer/site where compile is being run
 SITE:STRING=JayNakum
 
-//The directory containing a CMake configuration file for glew.
-glew_DIR:PATH=
-
 //The directory containing a CMake configuration file for glfw3.
 glfw3_DIR:PATH=/usr/local/lib/cmake/glfw3
-
-//Value Computed by CMake
-opengl_BINARY_DIR:STATIC=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL/build
-
-//Value Computed by CMake
-opengl_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-opengl_SOURCE_DIR:STATIC=/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/OpenGL
 
 
 ########################
@@ -597,8 +567,6 @@ OPENGL_GLX_INCLUDE_DIR-ADVANCED:INTERNAL=1
 OPENGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_egl_LIBRARY
 OPENGL_egl_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENGL_gl_LIBRARY
-OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_glu_LIBRARY
 OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_glx_LIBRARY

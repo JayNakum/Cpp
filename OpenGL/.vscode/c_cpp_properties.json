@@ -3,7 +3,8 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/src/include/**"
+                "${workspaceFolder}/src/include/**",
+                "${workspaceFolder}/src/vendors/stb_image/**"
             ],
             "defines": [
                 "GLEW_STATIC"
