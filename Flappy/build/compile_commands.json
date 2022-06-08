@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/build",
+  "command": "/usr/bin/g++    -Wall -Werror -std=c++17 -g -o CMakeFiles/OpenGL.dir/src/Application.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/Application.cpp",
+  "file": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/Application.cpp"
+},
+{
+  "directory": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/build",
+  "command": "/usr/bin/g++    -Wall -Werror -std=c++17 -g -o CMakeFiles/OpenGL.dir/src/GLErrorManager.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/GLErrorManager.cpp",
+  "file": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/GLErrorManager.cpp"
+},
+{
+  "directory": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/build",
+  "command": "/usr/bin/g++    -Wall -Werror -std=c++17 -g -o CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/IndexBuffer.cpp",
+  "file": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/IndexBuffer.cpp"
+},
+{
+  "directory": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/build",
+  "command": "/usr/bin/g++    -Wall -Werror -std=c++17 -g -o CMakeFiles/OpenGL.dir/src/Renderer.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/Renderer.cpp",
+  "file": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/Renderer.cpp"
+},
+{
+  "directory": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/build",
+  "command": "/usr/bin/g++    -Wall -Werror -std=c++17 -g -o CMakeFiles/OpenGL.dir/src/Shader.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/Shader.cpp",
+  "file": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/Shader.cpp"
+},
+{
+  "directory": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/build",
+  "command": "/usr/bin/g++    -Wall -Werror -std=c++17 -g -o CMakeFiles/OpenGL.dir/src/Texture.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/Texture.cpp",
+  "file": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/Texture.cpp"
+},
+{
+  "directory": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/build",
+  "command": "/usr/bin/g++    -Wall -Werror -std=c++17 -g -o CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/VertexArray.cpp",
+  "file": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/VertexArray.cpp"
+},
+{
+  "directory": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/build",
+  "command": "/usr/bin/g++    -Wall -Werror -std=c++17 -g -o CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/VertexBuffer.cpp",
+  "file": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/VertexBuffer.cpp"
+},
+{
+  "directory": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/build",
+  "command": "/usr/bin/g++    -Wall -Werror -std=c++17 -g -o CMakeFiles/OpenGL.dir/src/stb_image.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/stb_image.cpp",
+  "file": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/Flappy/src/stb_image.cpp"
+}
+]
