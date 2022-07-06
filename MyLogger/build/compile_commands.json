@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/MyLogger/build",
-  "command": "/usr/bin/g++    -Wall -Werror -std=c++17 -g -o CMakeFiles/MyLogger.dir/src/Log.cpp.o -c /mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/MyLogger/src/Log.cpp",
-  "file": "/mnt/d5cdd861-a412-4a6b-a274-74e78d5cdcab/Cpp/MyLogger/src/Log.cpp"
-}
-]
