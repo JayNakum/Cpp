@@ -3,3 +3,5 @@
 
 # Directories
 setup/*
+bin/*
+bin-int/*

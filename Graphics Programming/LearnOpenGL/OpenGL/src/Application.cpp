@@ -26,6 +26,7 @@ Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
 float lastX = SCR_WIDTH / 2.0f;
 float lastY = SCR_HEIGHT / 2.0f;
 bool firstMouse = true;
+bool useMouse = false;
 
 // timing
 float deltaTime = 0.0f;	// time between current frame and last frame
@@ -59,7 +60,7 @@ int main()
     glfwSetScrollCallback(window, scroll_callback);
 
     // tell GLFW to capture our mouse
-    glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+    // glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
     // glad: load all OpenGL function pointers
     // ---------------------------------------
@@ -75,7 +76,7 @@ int main()
 
     // build and compile our shader zprogram
     // ------------------------------------
-    Shader ourShader("D:\\.git\\Cpp\\Computer-Graphics\\LearnOpenGL\\OpenGL\\res\\shaders\\3.3.shader.vs", "D:\\.git\\Cpp\\Computer-Graphics\\LearnOpenGL\\OpenGL\\res\\shaders\\3.3.shader.fs");
+    Shader ourShader("D:\\.git\\Cpp\\Graphics Programming\\LearnOpenGL\\OpenGL\\res\\shaders\\3.3.shader.vs", "D:\\.git\\Cpp\\Graphics Programming\\LearnOpenGL\\OpenGL\\res\\shaders\\3.3.shader.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
@@ -168,7 +169,7 @@ int main()
     // load image, create texture and generate mipmaps
     int width, height, nrChannels;
     stbi_set_flip_vertically_on_load(true); // tell stb_image.h to flip loaded texture's on the y-axis.
-    unsigned char* data = stbi_load("D:\\.git\\Cpp\\Computer-Graphics\\LearnOpenGL\\OpenGL\\res\\textures\\container.jpg", &width, &height, &nrChannels, 0);
+    unsigned char* data = stbi_load("D:\\.git\\Cpp\\Graphics Programming\\LearnOpenGL\\OpenGL\\res\\textures\\container.jpg", &width, &height, &nrChannels, 0);
     if (data)
     {
         glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
@@ -190,7 +191,7 @@ int main()
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
     // load image, create texture and generate mipmaps
-    data = stbi_load("D:\\.git\\Cpp\\Computer-Graphics\\LearnOpenGL\\OpenGL\\res\\textures\\awesomeface.png", &width, &height, &nrChannels, 0);
+    data = stbi_load("D:\\.git\\Cpp\\Graphics Programming\\LearnOpenGL\\OpenGL\\res\\textures\\awesomeface.png", &width, &height, &nrChannels, 0);
     if (data)
     {
         // note that the awesomeface.png has transparency and thus an alpha channel, so make sure to tell OpenGL the data type is of GL_RGBA
@@ -277,6 +278,20 @@ int main()
     return 0;
 }
 
+void playPause(GLFWwindow* window)
+{
+    if (useMouse)
+    {
+        glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
+        useMouse = false;
+    }
+    else
+    {
+        glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+        useMouse = true;
+    }
+}
+
 // process all input: query GLFW whether relevant keys are pressed/released this frame and react accordingly
 // ---------------------------------------------------------------------------------------------------------
 void processInput(GLFWwindow* window)
@@ -296,6 +311,11 @@ void processInput(GLFWwindow* window)
         camera.ProcessKeyboard(UP, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS)
         camera.ProcessKeyboard(DOWN, deltaTime);
+
+    if (glfwGetKey(window, GLFW_KEY_ENTER) == GLFW_PRESS)
+    {
+        playPause(window);
+    }
 }
 
 // glfw: whenever the window size changed (by OS or user resize) this callback function executes
@@ -315,20 +335,23 @@ void mouse_callback(GLFWwindow* window, double xposIn, double yposIn)
     float xpos = static_cast<float>(xposIn);
     float ypos = static_cast<float>(yposIn);
 
-    if (firstMouse)
+    if (useMouse)
     {
+        if (firstMouse)
+        {
+            lastX = xpos;
+            lastY = ypos;
+            firstMouse = false;
+        }
+
+        float xoffset = xpos - lastX;
+        float yoffset = lastY - ypos; // reversed since y-coordinates go from bottom to top
+
         lastX = xpos;
         lastY = ypos;
-        firstMouse = false;
+
+        camera.ProcessMouseMovement(xoffset, yoffset);
     }
-
-    float xoffset = xpos - lastX;
-    float yoffset = lastY - ypos; // reversed since y-coordinates go from bottom to top
-
-    lastX = xpos;
-    lastY = ypos;
-
-    camera.ProcessMouseMovement(xoffset, yoffset);
 }
 
 // glfw: whenever the mouse scroll wheel scrolls, this callback is called
@@ -339,8 +362,8 @@ void scroll_callback(GLFWwindow* window, double xoffset, double yoffset)
 }
 
 /*
-"D:\\.git\\Cpp\\Computer-Graphics\\LearnOpenGL\\OpenGL\\res\\shaders\\3.3.shader.vs", "D:\\.git\\Cpp\\Computer-Graphics\\LearnOpenGL\\OpenGL\\res\\shaders\\3.3.shader.fs"
-"D:\\.git\\Cpp\\Computer-Graphics\\LearnOpenGL\\OpenGL\\res\\textures\\container.jpg"
-"D:\\.git\\Cpp\\Computer-Graphics\\LearnOpenGL\\OpenGL\\res\\textures\\awesomeface.png"
+"D:\\.git\\Cpp\\GraphicsProgramming\\LearnOpenGL\\OpenGL\\res\\shaders\\3.3.shader.vs", "D:\\.git\\Cpp\\GraphicsProgramming\\LearnOpenGL\\OpenGL\\res\\shaders\\3.3.shader.fs"
+"D:\\.git\\Cpp\\GraphicsProgramming\\LearnOpenGL\\OpenGL\\res\\textures\\container.jpg"
+"D:\\.git\\Cpp\\GraphicsProgramming\\LearnOpenGL\\OpenGL\\res\\textures\\awesomeface.png"
 glClearColor(0.607f, 0.721f, 0.929f, 1.0f);
 */
