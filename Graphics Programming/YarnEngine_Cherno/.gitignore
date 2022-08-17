@@ -1,0 +1,9 @@
+# directories
+.vs/
+bin/
+bin-int/
+vendor/
+.git_/
+
+# files
+*.user
