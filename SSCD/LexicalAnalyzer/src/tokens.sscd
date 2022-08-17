@@ -1,0 +1,32 @@
+# keywords
+main
+if
+else
+try
+catch
+return
+
+# datatypes
+void
+bool
+int
+float
+string
+
+# symbols
+;
+(
+)
+{
+}
+[
+]
++
+-
+*
+/
+%
+=
+,
+.
+#
