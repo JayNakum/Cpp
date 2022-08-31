@@ -1,7 +1,0 @@
-# Files
-*.user
-
-# Directories
-setup/*
-bin/*
-bin-int/*
