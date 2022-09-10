@@ -24,6 +24,7 @@
     <ProjectGuid>{6804dd76-8167-4466-96f1-e6e4dc2106ec}</ProjectGuid>
     <RootNamespace>LexicalAnalyzer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>TokenCounter</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -151,7 +152,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\LexicalAnalyzer.cpp" />
+    <ClCompile Include="src\TokenCounter.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -165,7 +166,7 @@
     <None Include="src\tokens.sscd" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\LexicalAnalyzer.h" />
+    <ClInclude Include="src\TokenCounter.h" />
     <ClInclude Include="src\pch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

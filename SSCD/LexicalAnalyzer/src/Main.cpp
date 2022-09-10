@@ -1,10 +1,10 @@
 #include "pch.h"
-#include "LexicalAnalyzer.h"
+#include "TokenCounter.h"
 
 int main()
 {
-	LexicalAnalyzer la;
-    std::ifstream programFile("D:\\SSCD\\LexicalAnalyzer\\src\\Test.jay");
+	TokenCounter la;
+    std::ifstream programFile("src\\Test.jay");
     
     if (!programFile)
     {

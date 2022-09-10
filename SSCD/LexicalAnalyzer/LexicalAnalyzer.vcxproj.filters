@@ -18,7 +18,7 @@
     <ClCompile Include="src\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\LexicalAnalyzer.cpp">
+    <ClCompile Include="src\TokenCounter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\pch.cpp">
@@ -30,7 +30,7 @@
     <None Include="src\Test.jay" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\LexicalAnalyzer.h">
+    <ClInclude Include="src\TokenCounter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\pch.h">
