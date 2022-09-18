@@ -27,7 +27,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="src\tokens.sscd" />
-    <None Include="src\Test.jay" />
+    <None Include="Test.jay" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\TokenCounter.h">

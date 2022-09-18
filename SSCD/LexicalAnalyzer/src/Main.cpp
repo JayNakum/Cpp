@@ -4,7 +4,7 @@
 int main()
 {
 	TokenCounter la;
-    std::ifstream programFile("src\\Test.jay");
+    std::ifstream programFile("Test.jay");
     
     if (!programFile)
     {
@@ -13,13 +13,19 @@ int main()
     }
     
     std::list<std::string> tokens = la.splitTokens(programFile);
+    std::cout << "Total Tokens: " << tokens.size() << std::endl;
 
-    std::cout << "Tokens count: " << tokens.size() << std::endl;
-    
-    for (auto token : tokens)
+    std::map<std::string, int> tokenCount;
+    for (auto& token : tokens)
     {
-        std::cout << token << std::endl;
+        // std::cout << token << std::endl;
+        if (tokenCount.find(token) == tokenCount.end())
+            tokenCount.insert(std::pair<std::string, int>(token, 1));
+        else
+            tokenCount.at(token)++;
     }
+    for (auto& token : tokenCount) 
+        std::cout << token.first << " : " << token.second << std::endl;
 
     programFile.close();
 }

@@ -1,0 +1,9 @@
+void main()
+{
+    # This is a comment
+    print("Hello World");
+    int a = 2;
+    if (a >= 2 && a < 10) {
+        a++;
+    }
+}

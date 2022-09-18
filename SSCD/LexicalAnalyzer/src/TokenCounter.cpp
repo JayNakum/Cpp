@@ -14,29 +14,55 @@ std::list<std::string> TokenCounter::splitTokens(std::ifstream& srcFile)
     std::string token;
     while (std::getline(srcFile, line))
     {
+        int lookAheadPointer = 1;
         bool isString = false;
         bool isComment = false;
-        for (char chr : line)
+        bool next = false;
+        for (char& chr : line)
         {
-            if (chr == '"') isString = !isString;
-            if (chr == '#') isComment = !isComment;
+            if (next) { next = false; continue; }
+            if (chr == '#')
+            {
+                isComment = !isComment;
+                if (isComment && !isString) break;
+            }
+            if (chr == '"')
+            {
+                isString = !isString;
+            }
 
             if (chr == ' ' && !isString && !isComment)
             {
-                if(token == "") continue;
+                if (token == "")
+                {
+                    lookAheadPointer++;
+                    continue;
+                }
                 tokens.push_back(token);
                 token = "";
             }
             else if (std::find(m_symbols.begin(), m_symbols.end(), std::string(1, chr)) != m_symbols.end() && !isString)
             {
+                std::string symbol = std::string(1, chr);
                 if (token != "") tokens.push_back(token);
-                tokens.push_back(std::string(1, chr));
+                if ((chr == '+' && (line[lookAheadPointer] == '=' || line[lookAheadPointer] == '+')) ||
+                    (chr == '-' && (line[lookAheadPointer] == '=' || line[lookAheadPointer] == '-')) ||
+                    (chr == '>' && line[lookAheadPointer] == '=') ||
+                    (chr == '<' && line[lookAheadPointer] == '=') ||
+                    (chr == '=' && line[lookAheadPointer] == '=')
+                    )
+                {
+                    symbol += line[lookAheadPointer];
+                    next = true;
+                }
+                tokens.push_back(symbol);
                 token = "";
             }
             else
             {
                 token += chr;
             }
+            lookAheadPointer++;
         }
     }
     return tokens;

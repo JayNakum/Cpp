@@ -1,5 +1,0 @@
-void main()
-{
-    # This is a comment
-    print("Hello World");
-}

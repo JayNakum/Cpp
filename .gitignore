@@ -1,2 +1,5 @@
 /.metadata/
 assets/
+.vs/
+bin/
+bin-int/
