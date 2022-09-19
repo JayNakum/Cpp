@@ -15,6 +15,7 @@ namespace sdds {
 
 	int LoadDictionary(const char* filename)
 	{
+        DICTIONARY.clear();
         // open file
         std::ifstream dictionaryFile(filename);
         if (!dictionaryFile) return -1; // Couldn't open file ${filename}
