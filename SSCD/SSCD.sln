@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LexicalAnalyzer", "LexicalAnalyzer\LexicalAnalyzer.vcxproj", "{6804DD76-8167-4466-96F1-E6E4DC2106EC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SSCD", "SSCD\SSCD.vcxproj", "{FB001FA3-48FF-4CC3-8BDB-E35BF2D6A932}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{6804DD76-8167-4466-96F1-E6E4DC2106EC}.Release|x64.Build.0 = Release|x64
 		{6804DD76-8167-4466-96F1-E6E4DC2106EC}.Release|x86.ActiveCfg = Release|Win32
 		{6804DD76-8167-4466-96F1-E6E4DC2106EC}.Release|x86.Build.0 = Release|Win32
+		{FB001FA3-48FF-4CC3-8BDB-E35BF2D6A932}.Debug|x64.ActiveCfg = Debug|x64
+		{FB001FA3-48FF-4CC3-8BDB-E35BF2D6A932}.Debug|x64.Build.0 = Debug|x64
+		{FB001FA3-48FF-4CC3-8BDB-E35BF2D6A932}.Debug|x86.ActiveCfg = Debug|Win32
+		{FB001FA3-48FF-4CC3-8BDB-E35BF2D6A932}.Debug|x86.Build.0 = Debug|Win32
+		{FB001FA3-48FF-4CC3-8BDB-E35BF2D6A932}.Release|x64.ActiveCfg = Release|x64
+		{FB001FA3-48FF-4CC3-8BDB-E35BF2D6A932}.Release|x64.Build.0 = Release|x64
+		{FB001FA3-48FF-4CC3-8BDB-E35BF2D6A932}.Release|x86.ActiveCfg = Release|Win32
+		{FB001FA3-48FF-4CC3-8BDB-E35BF2D6A932}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
