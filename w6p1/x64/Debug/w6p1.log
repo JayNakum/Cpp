@@ -1,0 +1,455 @@
+﻿  main.cpp
+D:\.git\Cpp\w6p1\Numbers.h(43,23): error C2143: syntax error: missing ';' before '&'
+D:\.git\Cpp\w6p1\Numbers.h(43,23): error C2433: 'sdds::ostream': 'friend' not permitted on data declarations
+D:\.git\Cpp\w6p1\Numbers.h(43,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\.git\Cpp\w6p1\Numbers.h(43,66): error C2238: unexpected token(s) preceding ';'
+D:\.git\Cpp\w6p1\Numbers.h(44,23): error C2143: syntax error: missing ';' before '&'
+D:\.git\Cpp\w6p1\Numbers.h(44,23): error C2433: 'sdds::istream': 'friend' not permitted on data declarations
+D:\.git\Cpp\w6p1\Numbers.h(44,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\.git\Cpp\w6p1\Numbers.h(44,60): error C2238: unexpected token(s) preceding ';'
+D:\.git\Cpp\w6p1\Numbers.h(48,12): error C2143: syntax error: missing ';' before '&'
+D:\.git\Cpp\w6p1\Numbers.h(48,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\.git\Cpp\w6p1\Numbers.h(48,5): error C2086: 'int sdds::ostream': redefinition
+D:\.git\Cpp\w6p1\Numbers.h(43): message : see declaration of 'sdds::ostream'
+D:\.git\Cpp\w6p1\Numbers.h(48,32): error C2473: 'operator <<': looks like a function definition, but there is no parameter list.
+D:\.git\Cpp\w6p1\Numbers.h(48,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\.git\Cpp\w6p1\Numbers.h(48,34): error C2065: 'os': undeclared identifier
+D:\.git\Cpp\w6p1\Numbers.h(48,38): error C2059: syntax error: 'const'
+D:\.git\Cpp\w6p1\Numbers.h(49,5): error C2143: syntax error: missing ';' before '{'
+D:\.git\Cpp\w6p1\Numbers.h(49,5): error C2447: '{': missing function header (old-style formal list?)
+D:\.git\Cpp\w6p1\Numbers.h(53,12): error C2143: syntax error: missing ';' before '&'
+D:\.git\Cpp\w6p1\Numbers.h(53,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\.git\Cpp\w6p1\Numbers.h(53,5): error C2086: 'int sdds::istream': redefinition
+D:\.git\Cpp\w6p1\Numbers.h(44): message : see declaration of 'sdds::istream'
+D:\.git\Cpp\w6p1\Numbers.h(53,32): error C2473: 'operator >>': looks like a function definition, but there is no parameter list.
+D:\.git\Cpp\w6p1\Numbers.h(53,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\.git\Cpp\w6p1\Numbers.h(53,34): error C2065: 'istr': undeclared identifier
+D:\.git\Cpp\w6p1\Numbers.h(53,49): error C2065: 'N': undeclared identifier
+D:\.git\Cpp\w6p1\Numbers.h(53,40): error C2275: 'sdds::Numbers': expected an expression instead of a type
+D:\.git\Cpp\w6p1\Numbers.h(53,50): error C2440: 'initializing': cannot convert from 'initializer list' to 'int &'
+D:\.git\Cpp\w6p1\Numbers.h(53,24): message : A reference type cannot be value-initialized
+D:\.git\Cpp\w6p1\Numbers.h(53,52): error C2059: syntax error: '{'
+D:\.git\Cpp\w6p1\Numbers.h(53,52): error C2143: syntax error: missing ';' before '{'
+D:\.git\Cpp\w6p1\Numbers.h(53,52): error C2447: '{': missing function header (old-style formal list?)
+D:\.git\Cpp\w6p1\main.cpp(21,19): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(21,19): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(22,46): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(22,46): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(22,50): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(22,50): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(23,17): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(23,17): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(26,23): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(26,23): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(27,46): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(27,46): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(27,50): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(27,50): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(28,17): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(28,17): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(35,15): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(35,15): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(35,23): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(35,23): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(35,32): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(35,32): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(35,40): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(35,40): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(35,48): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(35,48): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(35,56): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(35,56): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(35,65): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(35,65): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(35,72): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(35,72): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(40,18): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(40,18): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(40,37): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(40,37): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(40,46): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(40,46): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(40,54): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(40,54): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(41,9): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(41,9): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(41,80): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(41,80): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(41,87): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(41,87): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(43,19): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(43,19): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(45,81): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(45,81): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(45,88): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(45,88): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(48,41): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(48,41): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(49,13): error C2872: '>>': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(49,13): message : could be '>>'
+D:\.git\Cpp\w6p1\Numbers.h(53,14): message : or       'int &sdds::>>'
+D:\.git\Cpp\w6p1\main.cpp(49,13): error C2679: binary '>>': no operator found which takes a right-hand operand of type 'sdds::Numbers' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(299,39): message : could be 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(295,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(291,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(287,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(283,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(279,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(275,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(271,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(267,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(263,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(255,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(251,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(219,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(215,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(186,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(181,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(176,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))'
+D:\.git\Cpp\w6p1\main.cpp(49,13): message : while trying to match the argument list '(std::istream, sdds::Numbers)'
+D:\.git\Cpp\w6p1\main.cpp(50,15): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(50,15): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(50,13): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'sdds::Numbers' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(475,39): message : could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(443,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(425,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(407,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(389,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(371,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(353,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(335,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(317,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(298,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(272,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(253,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(219,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(201,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(195,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(189,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(184,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+D:\.git\Cpp\w6p1\main.cpp(50,13): message : while trying to match the argument list '(std::ostream, sdds::Numbers)'
+D:\.git\Cpp\w6p1\main.cpp(56,15): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(56,15): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(56,15): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'sdds::Numbers' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(475,39): message : could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(443,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(425,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(407,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(389,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(371,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(353,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(335,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(317,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(298,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(272,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(253,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(219,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(201,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(195,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(189,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(184,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+D:\.git\Cpp\w6p1\main.cpp(56,15): message : while trying to match the argument list '(std::ostream, sdds::Numbers)'
+D:\.git\Cpp\w6p1\main.cpp(66,15): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(66,15): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(66,15): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'sdds::Numbers' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(475,39): message : could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(443,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(425,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(407,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(389,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(371,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(353,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(335,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(317,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(298,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(272,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(253,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(219,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(201,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(195,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(189,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(184,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+D:\.git\Cpp\w6p1\main.cpp(66,15): message : while trying to match the argument list '(std::ostream, sdds::Numbers)'
+D:\.git\Cpp\w6p1\main.cpp(67,26): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(67,26): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(67,34): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(67,34): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(67,40): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(67,40): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(67,40): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'sdds::Numbers' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(475,39): message : could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(443,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(425,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(407,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(389,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(371,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(353,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(335,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(317,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(298,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(272,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(253,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(219,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(201,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(195,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(189,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(184,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+D:\.git\Cpp\w6p1\main.cpp(67,40): message : while trying to match the argument list '(std::basic_ostream<char,std::char_traits<char>>, sdds::Numbers)'
+D:\.git\Cpp\w6p1\main.cpp(71,15): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(71,15): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(71,15): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'sdds::Numbers' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(475,39): message : could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(443,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(425,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(407,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(389,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(371,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(353,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(335,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(317,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(298,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(272,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(253,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(219,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(201,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(195,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(189,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(184,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+D:\.git\Cpp\w6p1\main.cpp(71,15): message : while trying to match the argument list '(std::ostream, sdds::Numbers)'
+D:\.git\Cpp\w6p1\main.cpp(72,26): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(72,26): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(72,33): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(72,33): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(73,16): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(73,16): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(73,16): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'sdds::Numbers' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(475,39): message : could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(443,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(425,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(407,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(389,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(371,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(353,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(335,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(317,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(298,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(272,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(253,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(219,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(201,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(195,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(189,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(184,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+D:\.git\Cpp\w6p1\main.cpp(73,16): message : while trying to match the argument list '(std::ostream, sdds::Numbers)'
+D:\.git\Cpp\w6p1\main.cpp(74,28): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(74,28): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(74,35): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(74,35): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(75,16): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(75,16): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(75,16): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'sdds::Numbers' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(475,39): message : could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(443,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(425,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(407,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(389,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(371,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(353,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(335,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(317,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(298,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(272,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(253,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(219,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(201,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(195,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(189,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(184,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+D:\.git\Cpp\w6p1\main.cpp(75,16): message : while trying to match the argument list '(std::ostream, sdds::Numbers)'
+D:\.git\Cpp\w6p1\main.cpp(80,18): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(80,18): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(80,89): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(80,89): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(81,9): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(81,9): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(81,77): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(81,77): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(82,9): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(82,9): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(82,78): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(82,78): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(82,86): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(82,86): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(82,93): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(82,93): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(86,16): error C2872: '>>': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(86,16): message : could be '>>'
+D:\.git\Cpp\w6p1\Numbers.h(53,14): message : or       'int &sdds::>>'
+D:\.git\Cpp\w6p1\main.cpp(86,16): error C2679: binary '>>': no operator found which takes a right-hand operand of type 'sdds::Numbers' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(299,39): message : could be 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(295,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(291,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(287,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(283,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(279,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(275,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(271,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(267,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(263,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(255,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(251,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(219,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(215,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(186,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(181,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(176,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))'
+D:\.git\Cpp\w6p1\main.cpp(86,16): message : while trying to match the argument list '(std::ifstream, sdds::Numbers)'
+D:\.git\Cpp\w6p1\main.cpp(87,16): error C2872: '>>': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(87,16): message : could be '>>'
+D:\.git\Cpp\w6p1\Numbers.h(53,14): message : or       'int &sdds::>>'
+D:\.git\Cpp\w6p1\main.cpp(87,16): error C2679: binary '>>': no operator found which takes a right-hand operand of type 'sdds::Numbers' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(299,39): message : could be 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(295,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(291,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(287,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(283,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(279,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(275,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(271,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(267,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(263,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(255,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(251,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(219,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(215,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(186,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(181,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(176,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))'
+D:\.git\Cpp\w6p1\main.cpp(87,16): message : while trying to match the argument list '(std::ifstream, sdds::Numbers)'
+D:\.git\Cpp\w6p1\main.cpp(88,16): error C2872: '>>': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(88,16): message : could be '>>'
+D:\.git\Cpp\w6p1\Numbers.h(53,14): message : or       'int &sdds::>>'
+D:\.git\Cpp\w6p1\main.cpp(88,16): error C2679: binary '>>': no operator found which takes a right-hand operand of type 'sdds::Numbers' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(299,39): message : could be 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(295,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(291,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(287,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(283,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(279,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(275,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(271,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(267,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(263,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(255,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(251,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(219,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(215,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(186,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(181,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(176,39): message : or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))'
+D:\.git\Cpp\w6p1\main.cpp(88,16): message : while trying to match the argument list '(std::ifstream, sdds::Numbers)'
+D:\.git\Cpp\w6p1\main.cpp(89,17): error C2872: '<<': ambiguous symbol
+D:\.git\Cpp\w6p1\main.cpp(89,17): message : could be '<<'
+D:\.git\Cpp\w6p1\Numbers.h(48,14): message : or       'int &sdds::<<'
+D:\.git\Cpp\w6p1\main.cpp(89,17): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'sdds::Numbers' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(475,39): message : could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(443,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(425,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(407,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(389,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(371,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(353,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(335,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(317,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(298,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(272,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(253,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(219,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(201,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(195,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(189,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(184,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+D:\.git\Cpp\w6p1\main.cpp(89,17): message : while trying to match the argument list '(std::ofstream, sdds::Numbers)'
+  Numbers.cpp
+D:\.git\Cpp\w6p1\Numbers.h(43,23): error C2143: syntax error: missing ';' before '&'
+D:\.git\Cpp\w6p1\Numbers.h(43,23): error C2433: 'sdds::ostream': 'friend' not permitted on data declarations
+D:\.git\Cpp\w6p1\Numbers.h(43,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\.git\Cpp\w6p1\Numbers.h(43,66): error C2238: unexpected token(s) preceding ';'
+D:\.git\Cpp\w6p1\Numbers.h(44,23): error C2143: syntax error: missing ';' before '&'
+D:\.git\Cpp\w6p1\Numbers.h(44,23): error C2433: 'sdds::istream': 'friend' not permitted on data declarations
+D:\.git\Cpp\w6p1\Numbers.h(44,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\.git\Cpp\w6p1\Numbers.h(44,60): error C2238: unexpected token(s) preceding ';'
+D:\.git\Cpp\w6p1\Numbers.h(48,12): error C2143: syntax error: missing ';' before '&'
+D:\.git\Cpp\w6p1\Numbers.h(48,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\.git\Cpp\w6p1\Numbers.h(48,5): error C2086: 'int sdds::ostream': redefinition
+D:\.git\Cpp\w6p1\Numbers.h(43): message : see declaration of 'sdds::ostream'
+D:\.git\Cpp\w6p1\Numbers.h(48,32): error C2473: 'operator <<': looks like a function definition, but there is no parameter list.
+D:\.git\Cpp\w6p1\Numbers.h(48,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\.git\Cpp\w6p1\Numbers.h(48,34): error C2065: 'os': undeclared identifier
+D:\.git\Cpp\w6p1\Numbers.h(48,38): error C2059: syntax error: 'const'
+D:\.git\Cpp\w6p1\Numbers.h(49,5): error C2143: syntax error: missing ';' before '{'
+D:\.git\Cpp\w6p1\Numbers.h(49,5): error C2447: '{': missing function header (old-style formal list?)
+D:\.git\Cpp\w6p1\Numbers.h(53,12): error C2143: syntax error: missing ';' before '&'
+D:\.git\Cpp\w6p1\Numbers.h(53,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\.git\Cpp\w6p1\Numbers.h(53,5): error C2086: 'int sdds::istream': redefinition
+D:\.git\Cpp\w6p1\Numbers.h(44): message : see declaration of 'sdds::istream'
+D:\.git\Cpp\w6p1\Numbers.h(53,32): error C2473: 'operator >>': looks like a function definition, but there is no parameter list.
+D:\.git\Cpp\w6p1\Numbers.h(53,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\.git\Cpp\w6p1\Numbers.h(53,34): error C2065: 'istr': undeclared identifier
+D:\.git\Cpp\w6p1\Numbers.h(53,49): error C2065: 'N': undeclared identifier
+D:\.git\Cpp\w6p1\Numbers.h(53,40): error C2275: 'sdds::Numbers': expected an expression instead of a type
+D:\.git\Cpp\w6p1\Numbers.h(53,50): error C2440: 'initializing': cannot convert from 'initializer list' to 'int &'
+D:\.git\Cpp\w6p1\Numbers.h(53,24): message : A reference type cannot be value-initialized
+D:\.git\Cpp\w6p1\Numbers.h(53,52): error C2059: syntax error: '{'
+D:\.git\Cpp\w6p1\Numbers.h(53,52): error C2143: syntax error: missing ';' before '{'
+D:\.git\Cpp\w6p1\Numbers.h(53,52): error C2447: '{': missing function header (old-style formal list?)
+D:\.git\Cpp\w6p1\Numbers.cpp(207,51): fatal  error C1903: unable to recover from previous error(s); stopping compilation
+  Generating Code...
